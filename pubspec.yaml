@@ -1,0 +1,55 @@
+name: ui_learn
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.0
+  flutter_staggered_grid_view: ^0.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - asset/icons/arrow_icon.svg
+     - asset/icons/search_icon.svg
+     - asset/icons/menu_icon.svg
+     - asset/images/profile_img.png
+     - asset/images/design1.png
+     - asset/images/design2.png
+     - asset/images/design3.png
+     - asset/images/design4.png
+     - asset/images/design5.png
+     - asset/images/designer1.png
+     - asset/images/designer2.png
+     - asset/images/designer3.png
+     - asset/images/designer4.png
+     - asset/images/designer5.png
+     - asset/images/designer6.png
+
+
+
+
